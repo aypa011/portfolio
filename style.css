@@ -156,9 +156,8 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: fit-content;
-  min-height: 70vh;
-  margin: 0 10rem;
+  min-height: 90vh;
+  margin: 0 10rem 4rem;
   box-sizing: border-box;
 }
 
@@ -172,7 +171,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 85vh;
 }
 
 .section__pic-container {
@@ -351,13 +350,17 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  width: 12rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 
 article .icon {
   cursor: default;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
 }
 
 /* PROJECTS SECTION */
